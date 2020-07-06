@@ -1,0 +1,63 @@
+/* title image and text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home-text {
+    font-size: 200px;
+    font-family: jockey one, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+}
+
+#home-text2 {
+    font-size: 50px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* dairy free text section */
+
+.dairy-free {
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+/* mini carousel */
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+}
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px;
+}
+
+
+/* spacing inbetween sections */
+
+.spacing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* font */
+
+.f-font {
+    font-family: 'Satisfy', cursive;
+}
